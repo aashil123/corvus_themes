@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.themes.receivers;
+package com.corvus.themes.receivers;
 
 import static android.os.UserHandle.USER_SYSTEM;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_THEME_VALUE;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_TOAST;
-import static com.dirtyunicorns.themes.utils.Utils.handleBackgrounds;
-import static com.dirtyunicorns.themes.utils.Utils.setStartAlarm;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_THEME_VALUE;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_TOAST;
+import static com.corvus.themes.utils.Utils.handleBackgrounds;
+import static com.corvus.themes.utils.Utils.setStartAlarm;
 
 import android.app.UiModeManager;
 import android.content.BroadcastReceiver;
@@ -33,8 +33,8 @@ import android.widget.Toast;
 
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.util.du.ThemesUtils;
-import com.dirtyunicorns.themes.R;
+import com.android.internal.util.corvus.ThemesUtils;
+import com.corvus.themes.R;
 
 public class ThemesStartReceiver extends BroadcastReceiver {
 

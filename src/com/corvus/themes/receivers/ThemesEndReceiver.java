@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.themes.receivers;
+package com.corvus.themes.receivers;
 
 import static android.os.UserHandle.USER_SYSTEM;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_ALARM_END_TIME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_ALARM_START_TIME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULE;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_THEME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_THEME_VALUE;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_TIME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_REPEAT_DAILY;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_THEME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_THEME_VALUE;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_TIME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_TOAST;
-import static com.dirtyunicorns.themes.utils.Utils.clearAlarms;
-import static com.dirtyunicorns.themes.utils.Utils.handleBackgrounds;
-import static com.dirtyunicorns.themes.utils.Utils.setEndAlarm;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_ALARM_END_TIME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_ALARM_START_TIME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULE;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_THEME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_THEME_VALUE;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_TIME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_REPEAT_DAILY;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_THEME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_THEME_VALUE;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_TIME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_TOAST;
+import static com.corvus.themes.utils.Utils.clearAlarms;
+import static com.corvus.themes.utils.Utils.handleBackgrounds;
+import static com.corvus.themes.utils.Utils.setEndAlarm;
 
 import android.app.UiModeManager;
 import android.content.BroadcastReceiver;
@@ -43,8 +43,8 @@ import android.widget.Toast;
 
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.util.du.ThemesUtils;
-import com.dirtyunicorns.themes.R;
+import com.android.internal.util.corvus.ThemesUtils;
+import com.corvus.themes.R;
 
 public class ThemesEndReceiver extends BroadcastReceiver {
 

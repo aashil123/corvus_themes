@@ -1,11 +1,11 @@
-DU Themes
+Corvus Themes
 ==============
 
 Something, Something, Something, Dark Side
 
 ## License
 
-    Copyright (C) 2019 The Dirty Unicorns Project
+    Copyright (C) 2020 CorvusROM
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

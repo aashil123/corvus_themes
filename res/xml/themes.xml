@@ -15,11 +15,11 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.dirtyunicorns.themes.CustomPreference
+    <com.corvus.themes.CustomPreference
         android:key="wp_preview"
         android:enabled="false" />
 
-    <com.dirtyunicorns.support.colorpicker.ColorPickerPreference
+    <com.corvus.support.colorpicker.ColorPickerPreference
         android:key="accent_color"
         android:title="@string/accent_color"
         android:summary="@string/accent_color_summary"
@@ -73,7 +73,7 @@
         android:entries="@array/switch_style_entries"
         android:entryValues="@array/switch_style_values" />
 
-    <com.dirtyunicorns.support.preferences.CustomPreferenceCategory
+    <com.corvus.support.preferences.CustomPreferenceCategory
         android:title="@string/theme_type_title" >
 
         <ListPreference
@@ -88,6 +88,6 @@
             android:key="theme_schedule"
             android:title="@string/theme_schedule_title" />
 
-    </com.dirtyunicorns.support.preferences.CustomPreferenceCategory>
+    </com.corvus.support.preferences.CustomPreferenceCategory>
 
 </PreferenceScreen>

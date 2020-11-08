@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.themes;
+package com.corvus.themes;
 
 import static android.os.UserHandle.USER_SYSTEM;
-import static com.dirtyunicorns.themes.utils.Utils.getScheduledStartThemeSummary;
-import static com.dirtyunicorns.themes.utils.Utils.getScheduledStartThemeTime;
-import static com.dirtyunicorns.themes.utils.Utils.getThemeSchedule;
-import static com.dirtyunicorns.themes.utils.Utils.handleBackgrounds;
-import static com.dirtyunicorns.themes.utils.Utils.handleOverlays;
-import static com.dirtyunicorns.themes.utils.Utils.isLiveWallpaper;
-import static com.dirtyunicorns.themes.utils.Utils.threeButtonNavbarEnabled;
+import static com.corvus.themes.utils.Utils.getScheduledStartThemeSummary;
+import static com.corvus.themes.utils.Utils.getScheduledStartThemeTime;
+import static com.corvus.themes.utils.Utils.getThemeSchedule;
+import static com.corvus.themes.utils.Utils.handleBackgrounds;
+import static com.corvus.themes.utils.Utils.handleOverlays;
+import static com.corvus.themes.utils.Utils.isLiveWallpaper;
+import static com.corvus.themes.utils.Utils.threeButtonNavbarEnabled;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -58,14 +58,14 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
 
-import com.android.internal.util.du.ThemesUtils;
-import com.android.internal.util.du.Utils;
-import com.dirtyunicorns.support.colorpicker.ColorPickerPreference;
+import com.android.internal.util.corvus.ThemesUtils;
+import com.android.internal.util.corvus.Utils;
+import com.corvus.support.colorpicker.ColorPickerPreference;
 
 import java.util.Calendar;
 import java.util.Objects;
 
-import static com.dirtyunicorns.themes.utils.Utils.isLiveWallpaper;
+import static com.corvus.themes.utils.Utils.isLiveWallpaper;
 
 public class Themes extends PreferenceFragment {
 

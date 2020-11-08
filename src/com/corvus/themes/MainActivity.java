@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.themes;
+package com.corvus.themes;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;

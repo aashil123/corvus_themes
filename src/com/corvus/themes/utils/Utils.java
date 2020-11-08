@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 The Dirty Unicorns Project
+ * Copyright (C) 2020 CorvusROM
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.themes.utils;
+package com.corvus.themes.utils;
 
 import static android.content.Context.ALARM_SERVICE;
 import static android.os.UserHandle.USER_SYSTEM;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULE;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_THEME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_THEME_VALUE;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_TIME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_REPEAT_DAILY;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_THEME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_THEME_VALUE;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_TIME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_ALARM_START_TIME;
-import static com.dirtyunicorns.themes.Schedule.ScheduleFragment.PREF_ALARM_END_TIME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULE;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_THEME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_THEME_VALUE;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_END_TIME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_REPEAT_DAILY;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_THEME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_THEME_VALUE;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_THEME_SCHEDULED_START_TIME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_ALARM_START_TIME;
+import static com.corvus.themes.Schedule.ScheduleFragment.PREF_ALARM_END_TIME;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -48,11 +48,11 @@ import android.widget.Button;
 
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.util.du.ThemesUtils;
+import com.android.internal.util.corvus.ThemesUtils;
 
-import com.dirtyunicorns.themes.R;
-import com.dirtyunicorns.themes.receivers.ThemesEndReceiver;
-import com.dirtyunicorns.themes.receivers.ThemesStartReceiver;
+import com.corvus.themes.R;
+import com.corvus.themes.receivers.ThemesEndReceiver;
+import com.corvus.themes.receivers.ThemesStartReceiver;
 
 import java.util.Calendar;
 import java.util.Objects;
@@ -273,7 +273,7 @@ public class Utils {
         boolean navigationBar = Settings.System.getInt(context.getContentResolver(),
                 Settings.System.FORCE_SHOW_NAVBAR, defaultToNavigationBar ? 1 : 0) == 1;
         boolean hasNavbar = false;
-        hasNavbar = com.android.internal.util.du.Utils.isThemeEnabled(
+        hasNavbar = com.android.internal.util.corvus.Utils.isThemeEnabled(
                 "com.android.internal.systemui.navbar.threebutton") && navigationBar;
         return hasNavbar;
     }

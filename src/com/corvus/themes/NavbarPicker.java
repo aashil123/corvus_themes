@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.themes;
+package com.corvus.themes;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -29,7 +29,7 @@ import android.widget.RelativeLayout;
 
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.util.du.ThemesUtils;
+import com.android.internal.util.corvus.ThemesUtils;
 
 public class NavbarPicker extends DialogFragment {
 

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.themes;
+package com.corvus.themes;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
 import androidx.preference.Preference;
 
-import com.android.internal.util.du.Utils;
+import com.android.internal.util.corvus.Utils;
 
 public class CustomPreference extends Preference {
 

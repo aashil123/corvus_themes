@@ -2,7 +2,7 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := DU-Themes
+LOCAL_PACKAGE_NAME := Corvus-Themes
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRIVATE_PLATFORM_APIS := true
@@ -23,7 +23,7 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages androidx.recyclerview_recyclerview
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
-    VendorSupportLib
+    VendorSupport-preference
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     androidx.appcompat_appcompat \
