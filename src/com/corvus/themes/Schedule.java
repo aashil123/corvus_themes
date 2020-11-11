@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.themes;
+package com.corvus.themes;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -36,26 +36,26 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 import androidx.preference.SwitchPreference;
 
-import com.dirtyunicorns.themes.receivers.ThemesEndReceiver;
-import com.dirtyunicorns.themes.receivers.ThemesStartReceiver;
+import com.corvus.themes.receivers.ThemesEndReceiver;
+import com.corvus.themes.receivers.ThemesStartReceiver;
 
 import java.text.DateFormat;
 import java.util.Calendar;
 
-import static com.dirtyunicorns.themes.utils.Utils.clearAlarms;
-import static com.dirtyunicorns.themes.utils.Utils.getScheduledEndTheme;
-import static com.dirtyunicorns.themes.utils.Utils.getScheduledEndThemeSummary;
-import static com.dirtyunicorns.themes.utils.Utils.getScheduledEndThemeTime;
-import static com.dirtyunicorns.themes.utils.Utils.getScheduledEndThemeValue;
-import static com.dirtyunicorns.themes.utils.Utils.getScheduledStartTheme;
-import static com.dirtyunicorns.themes.utils.Utils.getScheduledStartThemeSummary;
-import static com.dirtyunicorns.themes.utils.Utils.getScheduledStartThemeTime;
-import static com.dirtyunicorns.themes.utils.Utils.getScheduledStartThemeValue;
-import static com.dirtyunicorns.themes.utils.Utils.getThemeSchedule;
-import static com.dirtyunicorns.themes.utils.Utils.setEndAlarm;
-import static com.dirtyunicorns.themes.utils.Utils.setEndTime;
-import static com.dirtyunicorns.themes.utils.Utils.setStartAlarm;
-import static com.dirtyunicorns.themes.utils.Utils.setStartTime;
+import static com.corvus.themes.utils.Utils.clearAlarms;
+import static com.corvus.themes.utils.Utils.getScheduledEndTheme;
+import static com.corvus.themes.utils.Utils.getScheduledEndThemeSummary;
+import static com.corvus.themes.utils.Utils.getScheduledEndThemeTime;
+import static com.corvus.themes.utils.Utils.getScheduledEndThemeValue;
+import static com.corvus.themes.utils.Utils.getScheduledStartTheme;
+import static com.corvus.themes.utils.Utils.getScheduledStartThemeSummary;
+import static com.corvus.themes.utils.Utils.getScheduledStartThemeTime;
+import static com.corvus.themes.utils.Utils.getScheduledStartThemeValue;
+import static com.corvus.themes.utils.Utils.getThemeSchedule;
+import static com.corvus.themes.utils.Utils.setEndAlarm;
+import static com.corvus.themes.utils.Utils.setEndTime;
+import static com.corvus.themes.utils.Utils.setStartAlarm;
+import static com.corvus.themes.utils.Utils.setStartTime;
 
 public class Schedule extends Activity {
 
